@@ -1,4 +1,4 @@
-# NASA Exoplanet AI Local Demo
+# ExoScopeAI Local Demo
 
 This project is a fully local setup for the NASA Space Apps Challenge "A World Away: Hunting for Exoplanets with AI".
 

@@ -1,6 +1,10 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 import numpy as np
+from flask_cors import CORS
+
+app = Flask(__name__)
+CORS(app)
 
 def dummy_predict(X):
     return np.random.randint(0, 2, size=(X.shape[0], 1))
